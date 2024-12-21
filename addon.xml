@@ -2,6 +2,11 @@
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Moi1301/MoiStream/Main/repo/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Moi1301/MoiStream/Main/repo/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Moi1301/MoiStream/Main/repo/zips/</datadir>
+    </dir>
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
